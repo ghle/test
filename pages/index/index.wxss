@@ -1,0 +1,285 @@
+
+/* 总体布局 */
+.header{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+} 
+/* 定位 */
+.location{
+    line-height: 50px; 
+}
+/* 搜索 */
+.search{
+     
+  width: 70%;
+}
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.search_arr input{
+  margin-left: 50rpx;
+  height: 60rpx;
+  border-radius: 5px;
+
+}
+
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+
+.searchcion {
+
+margin:10rpx 10rpx 10rpx 10rpx;
+position:absolute;
+left:561rpx;
+z-index:2;
+width:20px;
+height:20px;
+text-align:center;
+top:30rpx;
+}
+
+/* 轮播图 */
+.slide-image{
+  width: 100%;
+  height: 150px;
+}
+/* .swiper{
+  border: 1px solid red
+} */
+
+/* 导航 */
+.category{
+    /* border: 1px solid red; */
+    margin: 10px 0px 20px 0px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cate{
+   text-align: center;
+    /* border: 1px solid red; */
+    width:25%
+}
+.img image{
+  width: 60px;
+  height: 60px;
+}
+.tip{
+  font-size: 12px;
+  color: #AFAFAF;
+}
+
+/* 房东 */
+.master{
+  
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+}
+
+.master image{
+    /* border: 1px solid red; */
+    border-radius:5px; 
+    margin: 5px;
+    /* padding: 5px; */
+    width: 95px;
+    height: 95px;
+}
+
+/* 关于我们 */
+.about image{
+  margin-top:10px; 
+  width: 100%;
+  height: 90px;
+}
+
+/* 热门城市 */
+.slide-images{
+  width: 100%;
+  height: 200px;
+}
+.hotcity {
+  /* border: 1px solid red; */
+  margin:30rpx;
+  padding: 3px;
+  
+}
+.hottip {
+    border-bottom: 1px solid #E3E3E3;
+    padding-bottom: 5px;
+    margin: 5px;   
+}
+.more{
+  font-size: 12px;
+  float: right;
+  padding-right: 10px;
+}
+/* 专题活动 */
+
+.activty{
+    width: 120px;
+    height: 100px;
+    border-radius:10px; 
+}
+.biaoti{
+  font-size: 14px;
+    display: block;
+  
+}
+.miaoshu{
+  color: #9F9FBE;
+  font-size: 13px;
+  display: block;
+  
+}
+
+.desc{
+  font-size:13px;float: right;
+  
+}
+.ico{
+  color:#4BBD9E;padding:5px;
+}
+/* 远方的家 */
+.countlist{
+  display: flex;
+  justify-content: space-around
+}
+.yuanlist{
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  width: 46%;
+  background: #ffffff; 
+  box-shadow: 0px 5px 10px #BCBCBC;
+}
+.backgr{
+   padding: 2px;
+}
+.yuanlist text{
+   padding-left: 10px;
+}
+.yuanlist image{
+
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  width: 100%;
+  height: 90px;
+}
+.yuaninfo text{
+  font-size: 12px;
+  color: #CBCBCB
+}
+.priceimage .priceleft{
+  display: block;
+  position: absolute;
+  bottom:-76%;
+  left:21px;
+  width: 50px;
+  color: #fff;
+  font-size: 13px;
+  background: rgba(71, 175, 148, 0.88);
+}
+
+.priceimage .priceright{
+  display: block;
+  position: absolute;
+  bottom:-76%;
+  right:95px;
+  width: 50px;
+  color: #fff;
+  font-size: 13px;
+  background: rgba(71, 175, 148, 0.88);
+}
+
+/* 底部列表 */
+
+
+
+
+.footlist{
+  display: flex;
+  justify-content: space-around;
+  /* border:1px solid black; */
+  box-shadow: 0px 5px 10px #BCBCBC;
+  margin: 10px;
+}
+
+.footimg{
+
+    display: flex;
+    width: 30%;
+   
+}
+.footcontent{
+   width: 65%;
+   margin-left: 5px;
+
+
+}
+
+.footimg image {
+  border-radius: 15px;
+  width: 100px;
+  height:100px;
+  padding: 5px;
+}
+
+
+.tittle{
+  display: block;
+  color: #68C4AC;
+  margin:5px;
+}
+.description,.foottime{
+  font-size: 12px;
+  display: block;
+    margin:5px;
+ 
+}
+
+/* 版权信息 */
+.copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #F0F2F5
+
+}
+.ruzhu{
+    padding: 5px; 
+    font-size: 15px;
+    color:#FF9D00 ;
+    width: 100%;
+    text-align: center;
+    border:2px solid #E3E3E3; 
+    border-right:0px; 
+     border-left:0px;
+}
+.ruzhu text{
+  border-right: 1px solid #D3D3D3;
+  font-size: 13px;
+  padding:0px 5px 0px 5px;  
+}
+
+.information text{
+  display: block;
+  padding: 5px;
+}
+.information{
+    text-align: center;
+    font-size: 13px;
+    color: #B7B7B7;
+    padding: 10px
+}
+

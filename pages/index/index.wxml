@@ -1,0 +1,341 @@
+<!-- 头部 -->
+<view class="header">
+  <view class='location'>定位</view>
+  <view class='search'>
+      <view class="df search_arr">
+        <input class="" placeholder="请输入关键字" value="{{searchValue}}"/>
+        <icon class="searchcion" size='20' type='search'></icon>
+      </view>
+  </view>
+  <view class='lists'>
+  <image src='http://www.yidyi.net/mobile/static/images/menu.png' style='width:20px; height:20px;'></image>
+  </view>
+</view>
+<!-- 轮播图 -->
+ <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index" wx:key>  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+ </swiper> 
+<!-- 导航 -->
+ <view class='category'>
+    <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_23.png'></image>
+      </view>
+      <view class='tip'>
+            <text>周边游</text>
+      </view>
+    </view>
+
+  <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_09.png'></image>
+      </view>
+      <view class='tip'>
+            <text>周边游</text>
+      </view>
+    </view>
+
+  <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_11.png'></image>
+      </view>
+      <view class='tip'>
+            <text>远方的家</text>
+      </view>
+    </view>
+    <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_13.png'></image>
+      </view>
+      <view class='tip'>
+            <text>同城互助</text>
+      </view>
+    </view>
+  <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_19.png'></image>
+      </view>
+      <view class='tip'>
+            <text>周边游</text>
+      </view>
+    </view>
+   <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_20.png'></image>
+      </view>
+      <view class='tip'>
+            <text>度假山庄</text>
+      </view>
+    </view>
+  <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_07.png'></image>
+      </view>
+      <view class='tip'>
+            <text>远方的家</text>
+      </view>
+    </view>
+  <view class='cate'>
+      <view class='img'>
+            <image src='http://www.yidyi.net/mobile/static/images/menu_21.png'></image>
+      </view>
+      <view class='tip'>
+            <text>同城互助</text>
+      </view>
+    </view>
+ </view>
+
+<!-- 房东 -->
+ <view class='master'>
+        <view>
+              <image src='../../images/1.png'></image>
+              <image src='../../images/2.png'></image>
+              <image src='../../images/3.png'></image>
+        </view>
+        <view>
+            <image src='../../images/4.png'></image>
+            <image src='../../images/5.png'></image>
+            <image src='../../images/6.png'></image>
+        </view>
+ </view>
+
+ <!-- 关于我们 -->
+ <view class='about'>
+ <image src='http://www.yidyi.net/mobile/static/images/about/about_index.png'></image>
+ </view>
+
+<!-- 热门城市 -->
+<view  class='hotcity'>
+  <view class='hottip'>
+    <text>热门城市</text> 
+    <text class='more'>更多+</text> 
+  </view>
+
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000">  
+        <block wx:for="{{movie}}" wx:for-index="index" wx:key>  
+          <swiper-item>  
+            <image src="{{item.url}}" class="slide-images" mode="aspectFill"/>  
+          </swiper-item>  
+        </block>  
+  </swiper>
+ </view>
+
+ <!-- 主题活动 -->
+<view  class='hotcity'>
+ <view class='hottip'>
+    <text>专题活动</text> 
+    <text class="desc">
+    <text class="ico" >丝路</text>~依然神秘 <text class="ico" >甘肃</text>~并不遥远 
+    </text>
+  </view>
+
+   <swiper class="swiper">  
+        <block wx:for="{{movie}}" wx:for-index="index" wx:key>  
+          <swiper-item>  
+            <image src="{{item.url}}" class="activty" /> 
+              <text class='biaoti'>空洞山</text>
+              <text class='miaoshu'>道法自然 养生保健</text>
+          </swiper-item>    
+        </block>  
+  </swiper>
+
+</view>
+
+
+<!-- 远方的家 -->
+<view  class='hotcity'>
+ <view class='hottip'>
+    <text>远方的家</text> 
+    <text class='more'>更多+</text> 
+  </view>
+
+<view class='countlist'>
+  <view class='yuanlist'>
+   <view class='priceimage'>
+      <!-- <text class='priceleft'>￥150元</text>  -->
+      <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aebdec84c4b4_740X500.jpg'></image>
+        <view class='backgr'>
+          <text> 茶舍人家</text>
+          <view class='yuaninfo'>
+              <text>农家院|一居|215...</text>
+          </view>
+          <view class='yuaninfo'>
+            <text>地址：河北省石家庄...</text>
+          </view>
+        </view> 
+    </view>
+  </view>
+
+  <view class='yuanlist'>
+      <view class='priceimage'>
+      <!-- <text class='priceright'>￥150元</text>  -->
+      <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aebd1460b71b_740X500.jpg'></image>
+      </view>
+      <view class='backgr'>
+          <text> 金河客栈</text>
+        <view class='yuaninfo'>
+            <text>农家院|一居|30...</text>
+          </view>
+        <view class='yuaninfo'>
+          <text>地址：河北省石家庄...</text>
+        </view>
+      </view>  
+  </view>
+</view>
+</view>
+
+<!-- 度假山庄 -->
+<view  class='hotcity'>
+ <view class='hottip'>
+    <text>度假山庄</text> 
+    <text class='more'>更多+</text> 
+  </view>
+  <view class='countlist'>
+    <view class='yuanlist'>
+      <view class='priceimage'>
+          <!-- <text class='priceleft'>￥150元</text>  -->
+          <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec194c94c5f_740X500.jpg'></image>
+            <view class='backgr'>
+              <text> 茶舍人家</text>
+              <view class='yuaninfo'>
+                  <text>农家院|一居|215...</text>
+              </view>
+              <view class='yuaninfo'>
+                <text>地址：河北省石家庄...</text>
+              </view>
+            </view> 
+      </view>
+    </view>
+
+    <view class='yuanlist'>
+          <view class='priceimage'>
+          <!-- <text class='priceright'>￥150元</text>  -->
+          <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec170e3d090_740X500.jpg'></image>
+          </view>
+          <view class='backgr'>
+              <text> 金河客栈</text>
+            <view class='yuaninfo'>
+                <text>农家院|一居|30...</text>
+            </view>
+            <view class='yuaninfo'>
+              <text>地址：河北省石家庄...</text>
+            </view>
+          </view>  
+    </view>
+  </view>
+
+</view>
+<!-- 城市房源 -->
+
+
+
+
+<view  class='hotcity'>
+ <view class='hottip'>
+    <text>城市房源</text> 
+    <text class='more'>更多+</text> 
+  </view>
+
+  <view class='countlist'>
+    <view class='yuanlist'>
+      <view class='priceimage'>
+          <!-- <text class='priceleft'>￥150元</text>  -->
+          <image src='http://www.yidyi.net/Upload/wfangyuan/2018-06-05/5b162eee280de_740X500.jpg'></image>
+            <view class='backgr'>
+              <text> 茶舍人家</text>
+              <view class='yuaninfo'>
+                  <text>农家院|一居|215...</text>
+              </view>
+              <view class='yuaninfo'>
+                <text>地址：河北省石家庄...</text>
+              </view>
+            </view> 
+      </view>
+    </view>
+
+    <view class='yuanlist'>
+          <view class='priceimage'>
+          <!-- <text class='priceright'>￥150元</text>  -->
+          <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aebe184a7d8c_740X500.jpg'></image>
+          </view>
+          <view class='backgr'>
+              <text> 金河客栈</text>
+            <view class='yuaninfo'>
+                <text>农家院|一居|30...</text>
+            </view>
+            <view class='yuaninfo'>
+              <text>地址：河北省石家庄...</text>
+            </view>
+          </view>  
+    </view>
+  </view>
+</view>
+
+<!-- 底部列表 -->
+
+
+<view class='footer'>
+    <view class='footlist'>
+      <view class='footimg'>
+        <image src='http://www.yidyi.net/ueditor/php/upload/image/20180623/1529724401375194.jpg'>
+        </image>
+      </view>
+      <view class='footcontent'>
+          <text class='tittle'>石家庄天桂山景区</text>
+          <text class='description'>天桂山，位于河北省石家庄市西北90公里的平山</text>
+          <text class='foottime'>2018-12-8</text>
+      </view>
+    
+    </view>
+
+     <view class='footlist'>
+      <view class='footimg'>
+        <image src='http://www.yidyi.net/ueditor/php/upload/image/20180623/1529724401375194.jpg'>
+        </image>
+      </view>
+      <view class='footcontent'>
+          <text class='tittle'>石家庄天桂山景区</text>
+          <text class='description'>天桂山，位于河北省石家庄市西北90公里的平山</text>
+          <text class='foottime'>2018-12-8</text>
+      </view>
+    
+    </view> <view class='footlist'>
+      <view class='footimg'>
+        <image src='http://www.yidyi.net/ueditor/php/upload/image/20180623/1529724401375194.jpg'>
+        </image>
+      </view>
+      <view class='footcontent'>
+          <text class='tittle'>石家庄天桂山景区</text>
+          <text class='description'>天桂山，位于河北省石家庄市西北90公里的平山</text>
+          <text class='foottime'>2018-12-8</text>
+      </view>
+    
+    </view>
+
+  
+
+
+    
+</view>
+
+<!-- 版权信息 -->
+<view class='copyright'>
+      <view class='ruzhu'>
+        <text>申请代理商</text>
+        <text>房东入住</text>
+        <text style='color:black;'>帮助中心</text>
+        <text style='color:black;border-right:0px'>关于我们</text>
+      </view>
+
+      <view class='information'>
+          <text>咨询电话：400-111-5585</text>
+           <text>@2018 一带一旅居养老 冀ICP 170344号-1</text>
+      </view>
+
+
+</view>
+

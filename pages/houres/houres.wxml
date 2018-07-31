@@ -1,0 +1,116 @@
+<view class='houreshead'>
+  <text>定位</text>
+  <text style='font-size:20px;'>房源</text>
+  <image src='http://www.yidyi.net/mobile/static/images/search-ico.png'></image>
+
+</view>
+
+
+<!-- 选项卡 -->
+<view class='head'>
+    <view class="swiper-tab">
+        <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">爱心农舍</view>
+        <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">城市房源</view>
+        <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="clickTab">度假山庄</view>
+    </view>
+
+</view>
+
+
+<!-- 推荐房源 -->
+
+<view  class='hotcity'>
+  <view class='hottip'>
+    <text>推荐房源</text> 
+    <text class='more'>更多+</text> 
+  </view>
+
+  <view class='countlist'>
+      <view class='yuanlist'>
+          <view class='priceimage'>
+                <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec194c94c5f.jpg'></image>
+                <view class='priceleft'>￥150元</view>
+                  <view class='backgr'>
+                    <text> 茶舍人家</text>
+                    <view class='yuaninfo'>
+                        <text>农家院|一居|215...</text>
+                    </view>
+                    <view class='yuaninfo'>
+                      <text>地址：河北省石家庄...</text>
+                    </view>
+                  </view> 
+          </view>
+      </view>
+
+      <view class='yuanlist'>
+            <view class='priceimage'>
+                  <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec170e3d090.jpg'></image>
+                  <view class='priceleft'>￥150元</view> 
+              </view>
+              <view class='backgr'>
+                  <text> 金河客栈</text>
+                  <view class='yuaninfo'>
+                      <text>农家院|一居|30...</text>
+                  </view>
+                  <view class='yuaninfo'>
+                    <text>地址：河北省石家庄...</text>
+                  </view>
+              </view>  
+      </view>
+  </view>
+
+   <view class='countlist'>
+      <view class='yuanlist'>
+          <view class='priceimage'>
+                <image src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aebc647c65d4.jpg'></image>
+                <view class='priceleft'>￥150元</view>
+                  <view class='backgr'>
+                    <text> 茶舍人家</text>
+                    <view class='yuaninfo'>
+                        <text>农家院|一居|215...</text>
+                    </view>
+                    <view class='yuaninfo'>
+                      <text>地址：河北省石家庄...</text>
+                    </view>
+                  </view> 
+          </view>
+      </view>
+
+      <view class='yuanlist'>
+            <view class='priceimage'>
+                  <image src='http://www.yidyi.net/Upload/myrooms/mountain/s3_2613.jpg'></image>
+                  <view class='priceleft'>￥150元</view> 
+              </view>
+              <view class='backgr'>
+                  <text> 金河客栈</text>
+                  <view class='yuaninfo'>
+                      <text>农家院|一居|30...</text>
+                  </view>
+                  <view class='yuaninfo'>
+                    <text>地址：河北省石家庄...</text>
+                  </view>
+              </view>  
+      </view>
+  </view>
+
+  </view>
+
+  
+
+
+<!-- 版权信息 -->
+<view class='copyright'>
+      <view class='ruzhu'>
+        <text>申请代理商</text>
+        <text>房东入住</text>
+          <text style='color:black;'>帮助中心</text>
+        <text style='color:black;border-right:0px'>关于我们</text>
+      </view>
+
+      <view class='information'>
+          <text>咨询电话：400-111-5585</text>
+           <text>@2018 一带一旅居养老 冀ICP 170344号-1</text>
+      </view>
+
+
+</view>

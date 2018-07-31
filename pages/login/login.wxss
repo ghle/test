@@ -1,0 +1,70 @@
+/* pages/login/login.wxss */
+.headers{
+  width: 100%;
+  border: 1xp solid black;
+  margin-top:15px 
+
+}
+.headers image{
+   width:50%;
+   height:50px;
+
+}
+
+
+.tip{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5px;
+}
+.inputdata{
+    
+    border: 1px solid #F0F0F0;
+    border-radius: 50px;
+    padding:10px;
+    width: 75%;
+    margin: 0px auto;
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+.inputdata image{
+    width: 20px;
+    height: 25px;
+}
+.inputdata input{
+  height: 25px;
+   width:90%
+}
+
+.btn{
+    background: #4BBD9E;
+    border-radius:50px;
+    color: #fff;
+    margin-top: 15px;
+    width: 80%;
+}
+
+/* pages/detail/detail.wxss */
+.swiper-tab{
+    width: 100%;
+    /* border-bottom: 2rpx solid #ccc; */
+    /* text-align: center; */
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab-item{
+    /* width: 30%;  */
+    color:#434343;
+}
+.active{
+    /* color:#F65959; */
+    color:#4BBD9E;
+    /* border-bottom: 4rpx solid #F65959; */
+}
+/* swiper{
+  text-align: center;
+} */

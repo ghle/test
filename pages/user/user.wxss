@@ -1,0 +1,160 @@
+page{
+   background:#F5F8FA;
+}
+
+.header{
+  background: #FDAF32;
+  width: 100%;
+  height: 130px;
+  display: flex;
+  padding-top: 30px;
+  /* align-items: center; */
+ 
+  justify-content: space-around
+}
+.header image{
+  width: 70px;
+  height: 70px;
+}
+.header view text{
+  display: block;
+  color: #fff;
+  
+}
+.userlist{
+  width: 100%;
+}
+.userlistWrap{
+  position: relative;
+  top: -40px;
+}
+.userfirst{
+ 
+  margin: 0px auto;
+  margin-bottom: 10px;
+  background: #fff;
+  width: 90%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.myorder{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #A7A7A7;
+    
+    padding: 5px;
+   
+}
+.myorder text{
+    padding-left: 10px;
+    color: #8B8B8B
+}
+.myorder image{
+  width: 20px;
+  height: 25px;
+}
+.orderlist{
+  display: flex;
+  margin-top: 2px;
+}
+.orderlist view{
+  width: 25%;
+  
+  padding: 5px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  
+}
+.orderlist image{
+  width: 20px;
+  height: 20px;
+}
+.orderlist text{
+  display: block;
+  font-size: 12px;
+  color: #8B8B8B
+}
+
+.orderlists{
+  display: flex;
+  margin-top: 2px;
+}
+.orderlists view{
+  width:30%;
+  
+  padding: 5px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  
+}
+.orderlists image{
+  width: 20px;
+  height: 20px;
+}
+.orderlists text{
+  display: block;
+  font-size: 12px;
+  color: #8B8B8B
+}
+.pri{
+    font-size: 15px;
+}
+
+.other{
+  
+  border: 1px solid #fff;
+  border-radius:15px;  
+  margin: 0px auto;
+  width: 90%;
+ background: #fff;
+}
+.other view{
+   width: 90%;
+   border-bottom: 1px solid #CED1E0;
+  display: flex;  
+  margin: 0px auto;
+  padding:5px;
+}
+.other image{
+    width: 25px;
+    height: 25px;
+}
+.other text{
+  flex-grow: 2;
+  color: #8B8B8B
+}
+
+/* 版权信息 */
+.copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #F5F8FA
+}
+.ruzhu{
+    padding: 5px; 
+    font-size: 15px;
+    color:#FF9D00 ;
+    width: 100%;
+    text-align: center;
+    border:1px solid #E3E3E3; 
+    border-right:0px; 
+     border-left:0px;
+}
+.ruzhu text{
+  border-right: 1px solid #D3D3D3;
+  font-size: 13px;
+  padding:0px 5px 0px 5px;  
+}
+
+.information text{
+  display: block;
+  padding: 5px;
+}
+.information{
+    text-align: center;
+    font-size: 13px;
+    color: #B7B7B7;
+    padding: 10px
+}
+

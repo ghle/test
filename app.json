@@ -1,0 +1,54 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/houres/houres",
+    "pages/discover/discover",
+    "pages/masterlist/masterlist",
+    "pages/logs/logs",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#68C4AC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selected_home.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "images/discover.png",
+        "selectedIconPath": "images/selected_discover.png"
+      },
+      {
+        "pagePath": "pages/houres/houres",
+        "text": "房源",
+        "iconPath": "images/fangyuan.png",
+        "selectedIconPath": "images/selected_fangyuan.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/selected_order.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/selected_user.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+
+  <view class='masterheader'>
+      <image src='http://www.yidyi.net/mobile/static/images/topBack.png'></image>
+      <text> 娱乐房东</text>
+      <image src='http://www.yidyi.net/mobile/static/images/search-ico.png' bindtap='search'></image>
+  </view>
+
+<view class='mastercount'>
+      <view class='masterlist'>
+      
+            <image  src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec237429f63.jpg'></image>
+
+           <view class='masterprice'>￥338元</view>
+           
+           <view class='img'><image src='http://www.yidyi.net/mobile/static/images/header_def.png'></image></view>
+
+            <text class='mastername'>苗姐家</text>
+            
+            <text class='masterinfo'> 城市楼宇 | 一居 | 30平 | 宜住4人 </text>
+
+            <text class='masteraddress'>  地址：河北省 石家庄市 裕华区 </text> 
+          
+      </view> 
+
+       
+
+     
+</view>
+
+
+<view class='mastercount'>
+      <view class='masterlist'>
+      
+            <image  src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec237429f63.jpg'></image>
+
+             <view class='masterprice'>￥338元</view>
+
+               <view class='img'><image src='http://www.yidyi.net/mobile/static/images/header_def.png'></image></view>
+
+            <text class='mastername'>苗姐家</text>
+            
+            <text class='masterinfo'> 城市楼宇 | 一居 | 30平 | 宜住4人 </text>
+
+            <text class='masteraddress'>  地址：河北省 石家庄市 裕华区 </text> 
+          
+      </view> 
+</view>
+
+
+<view class='mastercount'>
+      <view class='masterlist'>
+      
+            <image  src='http://www.yidyi.net/Upload/wfangyuan/2018-05-04/5aec237429f63.jpg'></image>
+
+             <view class='masterprice'>￥338元</view>
+
+              <view class='img'><image src='http://www.yidyi.net/mobile/static/images/header_def.png'></image></view>
+
+            <text class='mastername'>苗姐家</text>
+            
+            <text class='masterinfo'> 城市楼宇 | 一居 | 30平 | 宜住4人 </text>
+
+            <text class='masteraddress'>  地址：河北省 石家庄市 裕华区 </text> 
+          
+      </view> 
+</view>
+
+
+
+

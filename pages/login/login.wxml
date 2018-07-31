@@ -1,0 +1,67 @@
+<!--pages/login/login.wxml-->
+<view class='headers'>
+    <view class='tip'>
+      <image src='http://www.yidyi.net/mobile/static/center/images/logo.png' style='margin:40px;'>
+      </image>
+    </view>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+
+    <!-- 选项卡切换 -->
+    <view class="swiper-tab" class='tip'>
+      <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">手机验证码登录</view>
+      <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab" style=''>密码登录</view>
+    </view>
+
+    <swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab" style='height:300px;'>
+    <swiper-item>
+        <view class='inputdata' style='margin-top:10px;'>
+          <image src='http://www.yidyi.net/mobile/static/center/images/account.png'></image>
+          <input type='text' placeholder='请输入手机号'placeholder-style="font-size:12px;padding-left:5px;" name="username"></input>
+        </view>
+
+     <!-- <view class='inputdata' style='margin-top:10px;'>
+      <image src='http://www.yidyi.net/mobile/static/center/images/rerifi.png'></image>
+      <input type='text' placeholder='图片验证码'placeholder-style="font-size:12px;padding-left:5px;" name="tpyzm"></input>
+      <!-- <canvas class='canvas' style="width:100px;height:28px;" canvas-id="canvas" bindtap='onReady'></canvas> -->
+    <!-- </view> -->
+
+
+    <view class='inputdata'>
+      <image src='http://www.yidyi.net/mobile/static/center/images/rerifi.png'></image>
+      <input type='password' placeholder='手机验证码' placeholder-style="font-size:12px;padding-left:5px;" name="password"></input>
+    
+    </view>
+   
+   <view class='tip'>
+      <text>立即注册</text>
+      <text style='color:#4BBD9E'>忘记密码</text>
+    </view>
+
+   
+    <button formType="submit" class='btn'> 登录 </button>
+    
+    </swiper-item>
+    <swiper-item>
+     <view class='inputdata' style='margin-top:10px;'>
+      <image src='http://www.yidyi.net/mobile/static/center/images/account.png'></image>
+      <input type='text' placeholder='请输入手机号'placeholder-style="font-size:12px;padding-left:5px;" name="username"></input>
+    </view>
+   
+    <view class='inputdata'>
+      <image src='http://www.yidyi.net/mobile/static/center/images/password.png'></image>
+      <input type='password' placeholder='请输入您的密码' placeholder-style="font-size:12px;padding-left:5px;" name="password"></input>
+    </view>
+   
+   <view class='tip'>
+      <text>立即注册</text>
+      <text style='color:#4BBD9E'>忘记密码</text>
+    </view>
+
+  <button formType="submit" class='btn'> 登录 </button>
+</swiper-item>
+ 
+</swiper>
+
+</form>
+</view>
+
